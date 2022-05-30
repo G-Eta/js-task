@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: blue;
+}
+.container{
+   width: 100%;
+}
+.card{
+    margin: 0 auto;
+    width: 50%;
+    height: 40vh;
+    background-color: black;
+    margin-top: 14%;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.container .card h1{
+    text-align: center;
+    padding-top: 6px;
+    
+}
+.container .card ul li{
+    list-style-type: none;
+    text-align: center;
+    padding-top: 3px;
+}
+
+
+
+@media (max-width: 769px) {
+    
+}
+
+@media (max-width: 426px) {
+    
+}
+
+@media (max-width: 321px) {
+
+    
+}
+    
+
+
